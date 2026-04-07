@@ -3,205 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Manna-View</title>
+    <title>manna-core.dev</title>
     <meta
       name="description"
-      content="Manna-View is a place-first public map-intelligence project centered on lawful public signals, routes, oversight layers, and compressed place intelligence."
+      content="manna-core.dev is the umbrella home for the manna ecosystem, including Manna-View and Manna-Landscape."
     />
-    <style>
-      :root {
-        --bg: #061014;
-        --panel: rgba(8, 16, 20, 0.9);
-        --border: rgba(141, 207, 180, 0.18);
-        --text: #eff7f2;
-        --muted: #b7c9c0;
-        --accent: #8dcfb4;
-        --accent-strong: #d7f1cf;
-        --warn: #f2d496;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      body {
-        margin: 0;
-        min-height: 100vh;
-        font-family: Consolas, "Lucida Console", "Courier New", monospace;
-        color: var(--text);
-        background:
-          radial-gradient(circle at top, rgba(141, 207, 180, 0.12), transparent 36%),
-          linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-          var(--bg);
-        background-size: auto, 24px 24px, 24px 24px, auto;
-      }
-
-      main {
-        width: min(980px, calc(100% - 32px));
-        margin: 0 auto;
-        padding: 48px 0 60px;
-      }
-
-      .shell {
-        border: 1px solid var(--border);
-        background: var(--panel);
-        padding: 24px;
-        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.34);
-      }
-
-      .eyebrow {
-        margin: 0 0 14px;
-        color: var(--accent);
-        letter-spacing: 0.18em;
-        text-transform: uppercase;
-        font-size: 0.78rem;
-      }
-
-      h1 {
-        margin: 0 0 18px;
-        font-size: clamp(2.2rem, 6vw, 4.6rem);
-        line-height: 0.96;
-        max-width: 11ch;
-        color: var(--accent-strong);
-      }
-
-      .lead {
-        margin: 0 0 28px;
-        max-width: 62ch;
-        color: var(--muted);
-        line-height: 1.7;
-        font-size: 1.02rem;
-      }
-
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 14px;
-        margin-bottom: 22px;
-      }
-
-      .card {
-        border: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.02);
-        padding: 16px;
-      }
-
-      .label {
-        display: block;
-        margin-bottom: 10px;
-        color: var(--accent);
-        letter-spacing: 0.08em;
-        font-size: 0.78rem;
-      }
-
-      .card p,
-      .note,
-      li {
-        color: var(--muted);
-        line-height: 1.65;
-      }
-
-      ul {
-        margin: 0;
-        padding-left: 18px;
-      }
-
-      .mission {
-        margin-top: 18px;
-        border-top: 1px solid var(--border);
-        padding-top: 18px;
-      }
-
-      .mission strong {
-        color: var(--warn);
-      }
-
-      .footer {
-        margin-top: 22px;
-        color: var(--muted);
-        font-size: 0.84rem;
-      }
-
-      @media (max-width: 860px) {
-        .grid {
-          grid-template-columns: 1fr;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main>
-      <section class="shell">
-        <p class="eyebrow">Manna-View</p>
-        <h1>Public Map Intelligence</h1>
-        <p class="lead">
-          Manna-View is a place-first public map-intelligence project centered on lawful public
-          signals, routes, oversight layers, and compressed place intelligence. It is being built
-          to make public-world visibility cleaner, faster, and more spatially understandable.
-        </p>
-
-        <div class="grid">
-          <article class="card">
-            <span class="label">Mission</span>
-            <p>
-              Search a place, resolve it, gather lawful public signals, compress them, and map
-              them cleanly for awareness and oversight.
+    <main class="page-shell">
+      <section class="hero panel">
+        <p class="eyebrow">manna-core.dev</p>
+        <div class="hero-grid">
+          <div>
+            <h1>One home for map tools, field tools, and practical software.</h1>
+            <p class="lead">
+              `manna-core` is the umbrella workspace for software that starts from real-world use:
+              public map intelligence, private business tooling, and grounded local-first systems.
             </p>
-          </article>
-          <article class="card">
-            <span class="label">Scope</span>
-            <p>
-              Cameras, routes, alerts, weather, aircraft, vessels, public infrastructure, and
-              other public map-visible data layers.
-            </p>
-          </article>
-          <article class="card">
-            <span class="label">Boundary</span>
-            <p>
-              Manna-View is for public transparency and public-interest intelligence. It is not
-              intended as a tactical surveillance or evasion tool.
-            </p>
-          </article>
+            <div class="cta-row">
+              <a class="button button-primary" href="landscape/">Open Manna-Landscape</a>
+              <a class="button" href="#projects">View Projects</a>
+            </div>
+          </div>
+          <div class="status-stack">
+            <article class="status-card">
+              <span class="label">Current Public Shape</span>
+              <p>Simple static umbrella site for the manna project family.</p>
+            </article>
+            <article class="status-card">
+              <span class="label">Primary Focus</span>
+              <p>Build useful software first, then polish the surrounding infrastructure.</p>
+            </article>
+            <article class="status-card">
+              <span class="label">Operating Style</span>
+              <p>Local-first, traceable, practical, and human-reviewed.</p>
+            </article>
+          </div>
         </div>
+      </section>
 
-        <div class="grid">
-          <article class="card">
-            <span class="label">What It Does</span>
+      <section class="panel section-panel" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Active and emerging manna projects</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card accent-view">
+            <span class="label">Manna-View</span>
+            <h3>Public map intelligence</h3>
+            <p>
+              A place-first map workspace for lawful public signals, route-aware browsing,
+              compressed place intelligence, and public-world visibility.
+            </p>
             <ul>
-              <li>keeps the map clean with grouping, filters, and progressive reveal</li>
-              <li>supports place-first analysis instead of clutter-first browsing</li>
-              <li>compresses local context into readable public intelligence</li>
+              <li>Map-first interface with layered public signals</li>
+              <li>Built for transparency, oversight, and spatial understanding</li>
+              <li>Active software project inside the `manna-core` workspace</li>
             </ul>
           </article>
-          <article class="card">
-            <span class="label">Why It Exists</span>
+          <article class="project-card accent-landscape">
+            <span class="label">Manna-Landscape</span>
+            <h3>Private estimating and quoting</h3>
             <p>
-              The goal is to create a map-first public intelligence workspace that helps people
-              understand the visible public world through geography, movement, and context.
+              A practical landscaping quote system built around deterministic pricing, saved quote
+              history, and clean owner review before anything is sent.
             </p>
-          </article>
-          <article class="card">
-            <span class="label">Current Status</span>
-            <p>
-              Active independent software project under ongoing development inside the
-              `manna-core` workspace.
-            </p>
+            <ul>
+              <li>Designed for fast fair field quoting</li>
+              <li>Rules-first math instead of AI guessing</li>
+              <li>Built for one real business before broader expansion</li>
+            </ul>
+            <a class="text-link" href="landscape/">Visit the landscape page</a>
           </article>
         </div>
+      </section>
 
-        <div class="mission">
-          <p class="note">
-            <strong>Plain-language summary:</strong> Manna-View is building a clean map interface
-            for lawful public-world visibility so places can be searched, public signals can be
-            layered, and local intelligence can be understood without junking up the map.
-          </p>
+      <section class="panel section-panel">
+        <div class="section-heading">
+          <p class="eyebrow">Principles</p>
+          <h2>How manna-core is being built</h2>
         </div>
-
-        <p class="footer">
-          For organizational description or project reference use. This page is a simple mission
-          statement landing page for Manna-View.
-        </p>
+        <div class="principles-grid">
+          <article class="principle-card">
+            <span class="label">Useful First</span>
+            <p>Start with a small working system that solves a real problem before chasing scale.</p>
+          </article>
+          <article class="principle-card">
+            <span class="label">Traceable</span>
+            <p>Core logic should stay understandable, inspectable, and honest about its limits.</p>
+          </article>
+          <article class="principle-card">
+            <span class="label">Local-First</span>
+            <p>Data, workflows, and ownership should stay grounded instead of becoming SaaS fluff.</p>
+          </article>
+        </div>
       </section>
     </main>
   </body>
