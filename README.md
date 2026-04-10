@@ -1,28 +1,33 @@
-# Manna-View Mission Site
+# manna-core.dev Static Site
 
-This is a simple single-page mission site for `Manna-View`.
+This folder now holds the simple static site source for `manna-core.dev`.
 
 Main file:
 
 - [index.html](/C:/manna-core/projects/manna-view-mission-site/index.html)
+- [styles.css](/C:/manna-core/projects/manna-view-mission-site/styles.css)
+- [landscape/index.html](/C:/manna-core/projects/manna-view-mission-site/landscape/index.html)
+- [landscape/styles.css](/C:/manna-core/projects/manna-view-mission-site/landscape/styles.css)
+- [landscape/brand-mark.svg](/C:/manna-core/projects/manna-view-mission-site/landscape/brand-mark.svg)
+- [manna-view/index.html](/C:/manna-core/projects/manna-view-mission-site/manna-view/index.html)
 - [.nojekyll](/C:/manna-core/projects/manna-view-mission-site/.nojekyll)
 
 ## What It Is For
 
-- giving a clean project URL later
-- sharing the mission in a simple format
-- using as an organization/project reference page for forms
+- serving the root `manna-core.dev` public landing page
+- giving the manna ecosystem a simple umbrella site
+- exposing a dedicated static `Manna-Landscape` page at `/landscape/`
+- keeping deployment easy through GitHub Pages
 
 ## Important
 
-This folder is ready to host, but it is **not** a public URL by itself.
+This folder is ready to host, but it is only public when deployed through the GitHub Pages repo / custom-domain flow.
 
-To make it a real public link later, host `index.html` with:
+Current intended public shape:
 
-- GitHub Pages
-- Netlify
-- Cloudflare Pages
-- any static web host
+- `/` -> `manna-core.dev` umbrella landing page
+- `/landscape/` -> `Manna-Landscape` standalone customer-facing service page
+- `/manna-view/` -> `Manna-View` project page
 
 ## Fastest GitHub Pages Path
 
@@ -33,6 +38,11 @@ Recommended name:
 2. Upload these files to the root of that repo:
 
 - `index.html`
+- `styles.css`
+- `landscape/index.html`
+- `landscape/styles.css`
+- `landscape/brand-mark.svg`
+- `manna-view/index.html`
 - `.nojekyll`
 
 3. In GitHub, open:
@@ -51,27 +61,24 @@ Recommended name:
 7. Your site URL will usually look like:
 `https://<your-github-username>.github.io/manna-view-site/`
 
-## Exact Use For The ACLED Form
+8. Point the custom domain at that Pages site as already done for `manna-core.dev`.
 
-Once published, use the GitHub Pages URL as the project website URL.
+## Deployment Note
 
-Until then, do not claim the local file path is a public website.
+Because this folder now acts like the root-site source, keep paths relative and static-host friendly.
 
 ## Clean Repo Structure
 
 ```text
 manna-view-site/
+  landscape/
+    index.html
+    styles.css
+    brand-mark.svg
+  manna-view/
+    index.html
   index.html
+  styles.css
   .nojekyll
   README.md
 ```
-
-## Honest Current Use
-
-If a form requires a URL **right now**, use an existing honest URL you already control, such as:
-
-- your company website
-- a project page you already own
-- a social/business profile that actually represents you
-
-Do not paste a local file path into a public signup form as if it were a real website.
