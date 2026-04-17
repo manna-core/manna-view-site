@@ -9,6 +9,8 @@ Main file:
 - [landscape/index.html](/C:/manna-core/projects/manna-view-mission-site/landscape/index.html)
 - [landscape/styles.css](/C:/manna-core/projects/manna-view-mission-site/landscape/styles.css)
 - [landscape/brand-mark.svg](/C:/manna-core/projects/manna-view-mission-site/landscape/brand-mark.svg)
+- [landscape/logo-mark.png](/C:/manna-core/projects/manna-view-mission-site/landscape/logo-mark.png)
+- [landscape/thanks.html](/C:/manna-core/projects/manna-view-mission-site/landscape/thanks.html)
 - [manna-view/index.html](/C:/manna-core/projects/manna-view-mission-site/manna-view/index.html)
 - [.nojekyll](/C:/manna-core/projects/manna-view-mission-site/.nojekyll)
 
@@ -42,6 +44,8 @@ Recommended name:
 - `landscape/index.html`
 - `landscape/styles.css`
 - `landscape/brand-mark.svg`
+- `landscape/logo-mark.png`
+- `landscape/thanks.html`
 - `manna-view/index.html`
 - `.nojekyll`
 
@@ -67,6 +71,17 @@ Recommended name:
 
 Because this folder now acts like the root-site source, keep paths relative and static-host friendly.
 
+The quote-request form on the landscape page is wired for FormSubmit:
+
+- form action: `https://formsubmit.co/landscape@manna-core.dev`
+- inbox target: `landscape@manna-core.dev`
+- thank-you page: `/landscape/thanks.html`
+
+Important first-live step:
+
+- the first real submission to a new FormSubmit target will trigger an email asking you to confirm and activate forwarding
+- after that confirmation step, future quote requests should route automatically
+
 ## Clean Repo Structure
 
 ```text
@@ -75,6 +90,8 @@ manna-view-site/
     index.html
     styles.css
     brand-mark.svg
+    logo-mark.png
+    thanks.html
   manna-view/
     index.html
   index.html

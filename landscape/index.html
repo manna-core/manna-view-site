@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Manna-Landscape | manna-core.dev</title>
+    <title>Manna-Landscape | Schedule Your Quote</title>
     <meta
       name="description"
-      content="Manna-Landscape offers clean, dependable lawn and landscape work including mowing, cleanups, mulch, pine straw, bush work, fertilizing, and aeration."
+      content="Manna-Landscape offers clean, dependable lawn and landscape work including mowing, cleanups, mulch, pine straw, bush work, fertilizing, and aeration, with an easy online quote request form."
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -15,10 +15,11 @@
       <header class="topbar">
         <div class="topbar-brand">
           <span class="topbar-title">Manna-Landscape</span>
-          <span class="topbar-note">Professional lawn and landscape care presented as its own service brand on manna-core.dev.</span>
+          <span class="topbar-note">Professional lawn and landscape care with direct quote requests sent to the landscape team.</span>
         </div>
         <div class="topbar-actions">
           <a class="button" href="#services">Services</a>
+          <a class="button" href="#schedule-quote">Schedule Your Quote</a>
           <a class="button button-primary" href="tel:+19843747939">Call 984-374-7939</a>
         </div>
       </header>
@@ -33,15 +34,15 @@
             clean yards, sharp bed lines, honest scope, and service people can actually count on.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="tel:+19843747939">Call or text for a quote</a>
+            <a class="button button-primary" href="#schedule-quote">Schedule your quote</a>
             <a class="button" href="#services">See services</a>
           </div>
           <p class="mini-note">One-time jobs and recurring care available depending on property needs.</p>
         </div>
 
         <aside class="hero-side">
-          <div class="hero-logo">
-            <img src="./brand-mark.svg" alt="Manna-Landscape brand mark" />
+          <div class="hero-logo hero-logo-mark">
+            <img src="./logo-mark.png" alt="Manna-Landscape logo mark" />
           </div>
           <article class="contact-card">
             <div class="contact-grid">
@@ -51,6 +52,13 @@
                   <strong>984-374-7939</strong>
                 </a>
                 <p>Call or text to talk through the job, ask about availability, or request a quote.</p>
+              </div>
+              <div>
+                <span class="contact-label">Email</span>
+                <a class="contact-link" href="mailto:landscape@manna-core.dev">
+                  <strong>landscape@manna-core.dev</strong>
+                </a>
+                <p>Use the quote form below or email directly if you already have the job details ready.</p>
               </div>
               <div>
                 <span class="contact-label">Best Fit</span>
@@ -67,6 +75,105 @@
             </ul>
           </article>
         </aside>
+      </section>
+
+      <section class="section-panel" id="schedule-quote">
+        <div class="section-heading">
+          <p class="eyebrow">Schedule Your Quote</p>
+          <h2>Send the job details now</h2>
+          <p class="supporting-copy">
+            This form sends your request directly to
+            <a href="mailto:landscape@manna-core.dev">landscape@manna-core.dev</a>
+            so the quote process can start right away.
+          </p>
+        </div>
+        <form
+          class="quote-form"
+          action="https://formsubmit.co/landscape@manna-core.dev"
+          method="POST"
+        >
+          <input type="hidden" name="_subject" value="New quote request from Manna-Landscape site" />
+          <input type="hidden" name="_next" value="https://manna-core.dev/landscape/thanks.html" />
+          <input type="hidden" name="_template" value="table" />
+          <input
+            type="hidden"
+            name="_autoresponse"
+            value="Thanks for reaching out to Manna-Landscape. We received your quote request and will review the property details soon."
+          />
+          <input class="quote-honey" type="text" name="_honey" tabindex="-1" autocomplete="off" />
+
+          <div class="quote-grid">
+            <label class="field">
+              <span class="field-label">Full name</span>
+              <input type="text" name="name" required />
+            </label>
+            <label class="field">
+              <span class="field-label">Email</span>
+              <input type="email" name="email" required />
+            </label>
+            <label class="field">
+              <span class="field-label">Phone</span>
+              <input type="tel" name="phone" required />
+            </label>
+            <label class="field">
+              <span class="field-label">Property address</span>
+              <input type="text" name="property_address" required />
+            </label>
+            <label class="field">
+              <span class="field-label">Service needed</span>
+              <select name="service_needed" required>
+                <option value="">Select a service</option>
+                <option value="Lawn mowing">Lawn mowing</option>
+                <option value="Cleanup">Cleanup</option>
+                <option value="Mulch">Mulch</option>
+                <option value="Pine straw">Pine straw</option>
+                <option value="Bush removal or trimming">Bush removal or trimming</option>
+                <option value="Fertilizing">Fertilizing</option>
+                <option value="Aeration">Aeration</option>
+                <option value="More than one service">More than one service</option>
+              </select>
+            </label>
+            <label class="field">
+              <span class="field-label">Timing</span>
+              <select name="timing" required>
+                <option value="">Choose timing</option>
+                <option value="As soon as possible">As soon as possible</option>
+                <option value="This week">This week</option>
+                <option value="Next 2 weeks">Next 2 weeks</option>
+                <option value="This month">This month</option>
+                <option value="Just pricing for now">Just pricing for now</option>
+              </select>
+            </label>
+            <label class="field field-wide">
+              <span class="field-label">What should we know about the job?</span>
+              <textarea
+                name="job_details"
+                rows="6"
+                placeholder="Tell us what needs to be done, how large the area is if you know it, and anything important about access, debris, or recurring service."
+                required
+              ></textarea>
+            </label>
+            <label class="field">
+              <span class="field-label">Preferred follow-up</span>
+              <select name="preferred_follow_up" required>
+                <option value="">Select one</option>
+                <option value="Call">Call</option>
+                <option value="Text">Text</option>
+                <option value="Email">Email</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="form-actions">
+            <button class="button button-primary form-button" type="submit">Send quote request</button>
+            <p class="mini-note">
+              Prefer direct contact? Email
+              <a href="mailto:landscape@manna-core.dev">landscape@manna-core.dev</a>
+              or call
+              <a href="tel:+19843747939">984-374-7939</a>.
+            </p>
+          </div>
+        </form>
       </section>
 
       <section class="section-panel" id="services">
@@ -162,18 +269,21 @@
         <p class="eyebrow">Request A Quote</p>
         <h2>Ready to get the yard cleaned up?</h2>
         <p>
-          Call or text with the address, a quick description of the job, and whether you want a
-          one-time cleanup or recurring service. That is the fastest way to get the conversation started.
+          Use the quote form above, email the landscape inbox, or call or text directly if you want
+          to move faster.
         </p>
         <div class="hero-actions">
+          <a class="button button-primary" href="#schedule-quote">Open quote form</a>
+          <a class="button" href="mailto:landscape@manna-core.dev">Email the team</a>
           <a class="button button-primary" href="tel:+19843747939">Call 984-374-7939</a>
           <a class="button" href="sms:+19843747939">Text the job details</a>
         </div>
       </section>
 
       <p class="footer-note">
-        Manna-Landscape is presented as its own customer-facing service brand. The site is hosted on
-        <a href="https://manna-core.dev/">manna-core.dev</a>, while the business-facing experience stays separate from the rest of the manna project family.
+        Manna-Landscape is presented as its own customer-facing service brand with direct lead
+        routing to
+        <a href="mailto:landscape@manna-core.dev">landscape@manna-core.dev</a>.
       </p>
     </main>
   </body>
