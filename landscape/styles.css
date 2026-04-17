@@ -10,7 +10,6 @@
   --line-strong: rgba(27, 55, 32, 0.2);
   --brand: #255332;
   --brand-strong: #17351f;
-  --brand-soft: #e8f0e6;
   --accent: #aa7a3d;
   --accent-soft: #f0e2c8;
   --shadow: rgba(63, 46, 24, 0.1);
@@ -82,8 +81,8 @@ button {
 }
 
 .topbar-logo img {
-  width: 52px;
-  height: 52px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
 }
 
@@ -118,6 +117,7 @@ button {
 .trust-card p,
 .availability-card p,
 .availability-card li,
+.photo-card figcaption,
 .footer-note {
   color: var(--muted);
   line-height: 1.65;
@@ -175,7 +175,8 @@ h1,
 h2,
 h3,
 p,
-ul {
+ul,
+figure {
   margin-top: 0;
 }
 
@@ -261,7 +262,7 @@ h1 {
 }
 
 .hero-mark-panel img {
-  width: min(100%, 250px);
+  width: min(100%, 220px);
   height: auto;
 }
 
@@ -402,39 +403,38 @@ h1 {
   overflow: hidden;
 }
 
-.work-gallery-placeholder {
+.photo-strip {
   display: grid;
-  gap: 20px;
-  grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr);
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(280px, 32%);
+  gap: 18px;
   padding: 22px;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
 }
 
-.placeholder-frame {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 300px;
-  border: 1px dashed rgba(37, 83, 50, 0.24);
-  background:
-    linear-gradient(180deg, rgba(54, 108, 67, 0.08), rgba(170, 122, 61, 0.06)),
-    repeating-linear-gradient(90deg, transparent 0 24px, rgba(255, 255, 255, 0.24) 24px 25px);
-  color: var(--brand);
-  font-size: 1.15rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
-.placeholder-copy {
+.photo-card {
   display: grid;
-  align-content: center;
   gap: 12px;
+  align-content: start;
+  margin: 0;
+  scroll-snap-align: start;
 }
 
-.placeholder-copy h3 {
-  margin-bottom: 0;
-  color: var(--brand-strong);
-  font-size: 1.4rem;
+.photo-card-wide {
+  width: min(540px, 90vw);
+}
+
+.photo-card img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(47, 37, 20, 0.14);
+}
+
+.photo-card-wide img {
+  aspect-ratio: 4 / 3;
 }
 
 .service-grid,
@@ -547,7 +547,6 @@ h1 {
 
 @media (max-width: 980px) {
   .hero,
-  .work-gallery-placeholder,
   .quote-grid,
   .service-grid,
   .trust-grid,
@@ -558,6 +557,14 @@ h1 {
 
   h1 {
     max-width: 13ch;
+  }
+
+  .photo-strip {
+    grid-auto-columns: minmax(82vw, 82vw);
+  }
+
+  .photo-card-wide {
+    width: auto;
   }
 }
 
