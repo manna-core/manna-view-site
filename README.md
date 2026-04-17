@@ -1,18 +1,20 @@
-# manna-core.dev Static Site
+# Website
 
 This folder now holds the simple static site source for `manna-core.dev`.
 
 Main file:
 
-- [index.html](/C:/manna-core/projects/manna-view-mission-site/index.html)
-- [styles.css](/C:/manna-core/projects/manna-view-mission-site/styles.css)
-- [landscape/index.html](/C:/manna-core/projects/manna-view-mission-site/landscape/index.html)
-- [landscape/styles.css](/C:/manna-core/projects/manna-view-mission-site/landscape/styles.css)
-- [landscape/brand-mark.svg](/C:/manna-core/projects/manna-view-mission-site/landscape/brand-mark.svg)
-- [landscape/logo-mark.png](/C:/manna-core/projects/manna-view-mission-site/landscape/logo-mark.png)
-- [landscape/thanks.html](/C:/manna-core/projects/manna-view-mission-site/landscape/thanks.html)
-- [manna-view/index.html](/C:/manna-core/projects/manna-view-mission-site/manna-view/index.html)
-- [.nojekyll](/C:/manna-core/projects/manna-view-mission-site/.nojekyll)
+- [index.html](/D:/Manna-core/projects/Website/index.html)
+- [styles.css](/D:/Manna-core/projects/Website/styles.css)
+- [landscape/index.html](/D:/Manna-core/projects/Website/landscape/index.html)
+- [landscape/styles.css](/D:/Manna-core/projects/Website/landscape/styles.css)
+- [landscape/brand-mark.svg](/D:/Manna-core/projects/Website/landscape/brand-mark.svg)
+- [landscape/logo-mark.png](/D:/Manna-core/projects/Website/landscape/logo-mark.png)
+- [landscape/thanks.html](/D:/Manna-core/projects/Website/landscape/thanks.html)
+- [landscape/branding](/D:/Manna-core/projects/Website/landscape/branding)
+- [landscape/photos](/D:/Manna-core/projects/Website/landscape/photos)
+- [manna-view/index.html](/D:/Manna-core/projects/Website/manna-view/index.html)
+- [.nojekyll](/D:/Manna-core/projects/Website/.nojekyll)
 
 ## What It Is For
 
@@ -25,6 +27,11 @@ Main file:
 
 This folder is ready to host, but it is only public when deployed through the GitHub Pages repo / custom-domain flow.
 
+Landscape asset organization:
+
+- `landscape/branding/` is where branding icons, marks, and related visual identity files should go
+- `landscape/photos/` is where public job-photo references for the site gallery should go
+
 Current intended public shape:
 
 - `/` -> `manna-core.dev` umbrella landing page
@@ -34,8 +41,8 @@ Current intended public shape:
 ## Fastest GitHub Pages Path
 
 1. Create a new public GitHub repository.
-Recommended name:
-`manna-view-site`
+Recommended repo name:
+`website`
 
 2. Upload these files to the root of that repo:
 
@@ -85,13 +92,15 @@ Important first-live step:
 ## Clean Repo Structure
 
 ```text
-manna-view-site/
+website/
   landscape/
     index.html
     styles.css
     brand-mark.svg
     logo-mark.png
     thanks.html
+    branding/
+    photos/
   manna-view/
     index.html
   index.html
