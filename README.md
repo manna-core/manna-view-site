@@ -2,10 +2,12 @@
 
 This folder now holds the simple static site source for `manna-core.dev`.
 
-Main file:
+Main files:
 
 - [index.html](/D:/Manna-core/projects/Website/index.html)
 - [styles.css](/D:/Manna-core/projects/Website/styles.css)
+- [projects/index.html](/D:/Manna-core/projects/Website/projects/index.html)
+- [projects/deep-delvers/index.html](/D:/Manna-core/projects/Website/projects/deep-delvers/index.html)
 - [landscape/index.html](/D:/Manna-core/projects/Website/landscape/index.html)
 - [landscape/styles.css](/D:/Manna-core/projects/Website/landscape/styles.css)
 - [landscape/brand-mark.svg](/D:/Manna-core/projects/Website/landscape/brand-mark.svg)
@@ -20,6 +22,8 @@ Main file:
 
 - serving the root `manna-core.dev` public landing page
 - giving the manna ecosystem a simple umbrella site
+- exposing a dedicated shared `Projects` hub at `/projects/`
+- exposing a detailed `Deep Delvers` project profile at `/projects/deep-delvers/`
 - exposing a dedicated static `Manna-Landscape` page at `/landscape/`
 - keeping deployment easy through GitHub Pages
 
@@ -35,6 +39,8 @@ Landscape asset organization:
 Current intended public shape:
 
 - `/` -> `manna-core.dev` umbrella landing page
+- `/projects/` -> project network hub for interesting active builds
+- `/projects/deep-delvers/` -> detailed public-facing `Deep Delvers` profile
 - `/landscape/` -> `Manna-Landscape` standalone customer-facing service page
 - `/manna-view/` -> `Manna-View` project page
 
@@ -48,6 +54,8 @@ Recommended repo name:
 
 - `index.html`
 - `styles.css`
+- `projects/index.html`
+- `projects/deep-delvers/index.html`
 - `landscape/index.html`
 - `landscape/styles.css`
 - `landscape/brand-mark.svg`
@@ -93,6 +101,10 @@ Important first-live step:
 
 ```text
 website/
+  projects/
+    deep-delvers/
+      index.html
+    index.html
   landscape/
     index.html
     styles.css
