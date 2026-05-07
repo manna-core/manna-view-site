@@ -1,0 +1,14 @@
+<svg width="860" height="220" viewBox="0 0 860 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="220" rx="28" fill="#F8F3E9"/>
+  <path d="M66 124C95 93 137 74 183 74C230 74 271 93 300 124" stroke="#2C5D40" stroke-width="14" stroke-linecap="round"/>
+  <path d="M94 124C116 106 141 95 168 95C196 95 221 105 242 124" stroke="#C89B54" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="137" cy="145" r="8" fill="#2C5D40"/>
+  <circle cx="245" cy="145" r="8" fill="#2C5D40"/>
+  <rect x="149" y="112" width="88" height="20" rx="10" fill="#2C5D40"/>
+  <path d="M278 124H323" stroke="#2C5D40" stroke-width="12" stroke-linecap="round"/>
+  <path d="M323 124C351 124 379 113 399 91" stroke="#C89B54" stroke-width="8" stroke-linecap="round"/>
+  <path d="M406 82C417 82 427 73 427 61C415 62 406 72 406 82Z" fill="#2C5D40"/>
+  <text x="470" y="102" fill="#1F2B1D" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700">Manna-Landscape</text>
+  <text x="471" y="140" fill="#5E695D" font-family="'Trebuchet MS', Arial, sans-serif" font-size="18" letter-spacing="4">LAWN CARE  |  CLEANUPS  |  MULCH  |  PINE STRAW</text>
+  <text x="471" y="170" fill="#2C5D40" font-family="'Trebuchet MS', Arial, sans-serif" font-size="18" font-weight="700">CALL OR TEXT 984-374-7939</text>
+</svg>
