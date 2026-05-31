@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="manna-core crystal">
+  <rect width="64" height="64" rx="14" fill="#02070d"/>
+  <path d="M32 6 56 32 32 58 8 32Z" fill="#071925" stroke="#83dbff" stroke-width="2.5"/>
+  <path d="M32 12 48 32 32 52 16 32Z" fill="#0e3144" stroke="#e8fbff" stroke-width="1.5" opacity=".9"/>
+  <path d="M32 12 32 52M16 32H48" stroke="#83dbff" stroke-width="1.5" opacity=".7"/>
+  <path d="M32 22 42 32 32 42 22 32Z" fill="#83dbff"/>
+  <path d="M32 26 38 32 32 38 26 32Z" fill="#ffffff" opacity=".75"/>
+</svg>

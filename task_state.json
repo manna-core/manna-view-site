@@ -1,16 +1,16 @@
 {
   "project": "Website",
   "active_phase": "Phase 1 - Public root and route hardening",
-  "current_task": "refresh the public site and harden Manna-Landscape into a more professional customer-facing business page",
-  "status": "in_progress",
+  "current_task": "publish a full current-state revamp of manna-core.dev through the GitHub Pages repo",
+  "status": "ready_to_publish",
   "next_focus": [
-    "publish the refreshed static files to the live GitHub Pages repository",
-    "verify the live site on desktop and mobile after publish",
-    "make sure Manna-Landscape reads strongly without leaning on placeholder gallery content",
-    "decide the next route that deserves a deeper public profile",
-    "add stronger public metadata and preview assets if the new presentation is kept"
+    "push the revamp to the GitHub Pages repository",
+    "verify the live custom domain after Pages publishes",
+    "watch mobile header wrapping and root hero hierarchy",
+    "decide whether Manna Archive earns the next dedicated public route",
+    "add a stronger social preview image strategy"
   ],
-  "last_updated": "2026-05-07T00:00:00",
+  "last_updated": "2026-05-31T11:45:33-04:00",
   "last_mode": "build",
-  "last_request": "update the Manna-Landscape page so it feels much better and more professional, and remove the photo slide for now"
+  "last_request": "full revamp of the manna-core.dev website and publish through GitHub"
 }

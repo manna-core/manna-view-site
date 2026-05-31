@@ -1,12 +1,15 @@
 # Website
 
-This folder now holds the simple static site source for `manna-core.dev`.
+This folder holds the static GitHub Pages source for `manna-core.dev`.
 
 Main files:
 
 - [index.html](/D:/Manna-core/projects/Website/index.html)
 - [styles.css](/D:/Manna-core/projects/Website/styles.css)
+- [favicon.svg](/D:/Manna-core/projects/Website/favicon.svg)
+- [assets/manna-core-operator-hero.png](/D:/Manna-core/projects/Website/assets/manna-core-operator-hero.png)
 - [projects/index.html](/D:/Manna-core/projects/Website/projects/index.html)
+- [projects/manna-minecraft-builder/index.html](/D:/Manna-core/projects/Website/projects/manna-minecraft-builder/index.html)
 - [projects/deep-delvers/index.html](/D:/Manna-core/projects/Website/projects/deep-delvers/index.html)
 - [landscape/index.html](/D:/Manna-core/projects/Website/landscape/index.html)
 - [landscape/styles.css](/D:/Manna-core/projects/Website/landscape/styles.css)
@@ -23,13 +26,20 @@ Main files:
 - serving the root `manna-core.dev` public landing page
 - giving the manna ecosystem a simple umbrella site
 - exposing a dedicated shared `Projects` hub at `/projects/`
+- exposing a detailed `Manna Minecraft Builder` profile at `/projects/manna-minecraft-builder/`
 - exposing a detailed `Deep Delvers` project profile at `/projects/deep-delvers/`
 - exposing a dedicated static `Manna-Landscape` page at `/landscape/`
 - keeping deployment easy through GitHub Pages
 
 ## Important
 
-This folder is ready to host, but it is only public when deployed through the GitHub Pages repo / custom-domain flow.
+This folder is ready to host through the GitHub Pages repo / custom-domain flow.
+
+Current publish target:
+
+- GitHub repo: `manna-core/manna-view-site`
+- Branch: `main`
+- Custom domain: `manna-core.dev`
 
 Landscape asset organization:
 
@@ -40,47 +50,18 @@ Current intended public shape:
 
 - `/` -> `manna-core.dev` umbrella landing page
 - `/projects/` -> project network hub for interesting active builds
+- `/projects/manna-minecraft-builder/` -> detailed public-facing `Manna Minecraft Builder` profile
 - `/projects/deep-delvers/` -> detailed public-facing `Deep Delvers` profile
 - `/landscape/` -> `Manna-Landscape` standalone customer-facing service page
 - `/manna-view/` -> `Manna-View` project page
 
-## Fastest GitHub Pages Path
+## Publish Flow
 
-1. Create a new public GitHub repository.
-Recommended repo name:
-`website`
-
-2. Upload these files to the root of that repo:
-
-- `index.html`
-- `styles.css`
-- `projects/index.html`
-- `projects/deep-delvers/index.html`
-- `landscape/index.html`
-- `landscape/styles.css`
-- `landscape/brand-mark.svg`
-- `landscape/logo-mark.png`
-- `landscape/thanks.html`
-- `manna-view/index.html`
-- `.nojekyll`
-
-3. In GitHub, open:
-`Settings -> Pages`
-
-4. Under `Build and deployment`:
-
-- `Source`: `Deploy from a branch`
-- `Branch`: `main`
-- `Folder`: `/ (root)`
-
-5. Save.
-
-6. Wait for GitHub Pages to publish.
-
-7. Your site URL will usually look like:
-`https://<your-github-username>.github.io/manna-view-site/`
-
-8. Point the custom domain at that Pages site as already done for `manna-core.dev`.
+1. Edit the static files locally.
+2. Verify local references and render the key pages with Edge or a browser.
+3. Commit and push to `manna-core/manna-view-site` on `main`.
+4. Wait for GitHub Pages to publish.
+5. Verify the live custom domain on desktop and mobile.
 
 ## Deployment Note
 
@@ -101,7 +82,11 @@ Important first-live step:
 
 ```text
 website/
+  assets/
+    manna-core-operator-hero.png
   projects/
+    manna-minecraft-builder/
+      index.html
     deep-delvers/
       index.html
     index.html
@@ -117,6 +102,7 @@ website/
     index.html
   index.html
   styles.css
+  favicon.svg
   .nojekyll
   README.md
 ```
