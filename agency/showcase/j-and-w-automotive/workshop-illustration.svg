@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="640" viewBox="0 0 760 640" fill="none">
+  <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#51574e" stroke-width=".5"/></pattern><pattern id="tire" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V9" stroke="#7b8274" stroke-width="2"/></pattern><linearGradient id="body" x1="207" y1="212" x2="449" y2="452" gradientUnits="userSpaceOnUse"><stop stop-color="#fb8954"/><stop offset="1" stop-color="#dd4b1a"/></linearGradient></defs>
+  <path fill="url(#grid)" d="M35 38h690v527H35z" opacity=".6"/>
+  <g stroke="#6a7462" stroke-width="1"><path d="M60 491h640M89 500v-13m-6 6h12M670 500v-13m-6 6h12"/><path d="M136 128v303M124 143h20m-20 274h20" stroke-dasharray="3 7"/><path d="M212 546h340m-339-8v15m340-15v15"/><path d="m49 52 12 12m-12 0 12-12m652 0 12 12m-12 0 12-12m-12 494 12 12m-12 0 12-12"/></g>
+  <ellipse cx="388" cy="471" rx="266" ry="30" fill="#111710" opacity=".5"/>
+  <g stroke-linejoin="round">
+    <path d="m111 352 6-39 92-25 61-94 162-9 73 88 117 37 25 51-5 66-76 14-378-4-79-29z" fill="#d94714" stroke="#ff9965" stroke-width="2"/>
+    <path d="m209 288 63-94 161-9 71 88-129 18-81 10z" fill="#e66e3b" stroke="#ffab79" stroke-width="2"/>
+    <path d="m224 282 57-77 68-5 5 86z" fill="#313d32" stroke="#ffb07e" stroke-width="2"/>
+    <path d="m367 198 60-3 58 72-117 17z" fill="#303a30" stroke="#ffb07e" stroke-width="2"/>
+    <path d="m238 276 39-52 19 55zM377 205l22-2 43 70-20 3z" fill="#86917c" opacity=".5"/>
+    <path d="m110 352 185-35 80-26 129-18 121 36 21 52-100 37-247 36-190-25z" fill="url(#body)" stroke="#ff9965" stroke-width="2"/>
+    <path d="m375 291 8 132m-88-106 4 117m86-30 130-20 21-59-31-49" stroke="#993916" stroke-width="2"/>
+    <path d="m396 306 30-4m-104 27 27-5" stroke="#fbc39b" stroke-width="5" stroke-linecap="round"/>
+    <path d="m123 365 156-29m132 30 208-42" stroke="#ffa275" stroke-width="2"/>
+    <path d="m116 314 92-26 86 13-85 33z" fill="#b7421b" stroke="#f58a52" stroke-width="2"/>
+    <path d="m140 309 59-17 60 9-53 17z" fill="#292f28"/>
+    <path d="m532 391 97-36 15 6-3 48-96 34z" fill="#b13913"/>
+    <path d="m544 401 82-30-1 24-80 28z" fill="#20261f" stroke="#ed8652" stroke-width="2"/>
+    <path d="m555 402 55-19m-55 28 55-19" stroke="#6c7566" stroke-width="2"/>
+    <path d="m614 345 22-7 8 17-22 8z" fill="#fff0c8"/>
+    <path d="m531 374 19-7 6 16-19 7z" fill="#ffcf9b"/>
+    <path d="m114 370 5-27 11-3-2 28z" fill="#fbc1a1"/>
+    <path d="m108 405 79 13 106 14m243 5 109-40" stroke="#b4b9a7" stroke-width="9"/>
+    <path d="m99 405-22-7-10 7m20-2v13" stroke="#a4ad98" stroke-width="7"/>
+    <path d="M187 415c0-88 105-93 108 8" fill="#222a21" stroke="#773116" stroke-width="3"/>
+    <path d="M447 411c1-104 109-120 110-18" fill="#222a21" stroke="#773116" stroke-width="3"/>
+    <ellipse cx="245" cy="427" rx="43" ry="55" transform="rotate(8 245 427)" fill="#141b14" stroke="#515b4b" stroke-width="3"/>
+    <ellipse cx="245" cy="427" rx="35" ry="47" transform="rotate(8 245 427)" fill="url(#tire)" opacity=".55"/>
+    <ellipse cx="248" cy="427" rx="23" ry="34" transform="rotate(8 248 427)" fill="#6f7968" stroke="#a4b094" stroke-width="2"/>
+    <ellipse cx="248" cy="427" rx="8" ry="13" fill="#222a21"/>
+    <path d="m248 396 0 18m1 26-3 19m-19-36 13 3m17 2 14 2m-37-27 10 14m9 22 9 13m-23-14-11 10m29-37 10-8" stroke="#252e23" stroke-width="5"/>
+    <ellipse cx="502" cy="413" rx="44" ry="60" transform="rotate(8 502 413)" fill="#141b14" stroke="#515b4b" stroke-width="3"/>
+    <ellipse cx="502" cy="413" rx="37" ry="52" transform="rotate(8 502 413)" fill="url(#tire)" opacity=".55"/>
+    <ellipse cx="505" cy="413" rx="24" ry="37" transform="rotate(8 505 413)" fill="#6f7968" stroke="#a4b094" stroke-width="2"/>
+    <ellipse cx="505" cy="413" rx="8" ry="13" fill="#222a21"/>
+    <path d="m505 379 0 20m0 27-3 20m-20-37 14 2m17 3 14 2m-38-27 11 14m11 23 7 13m-21-16-12 14m30-36 10-10" stroke="#252e23" stroke-width="5"/>
+    <path d="m471 283 16 4-1 21-11 3-5-19" fill="#252e23" stroke="#ffa073" stroke-width="2"/>
+  </g>
+  <g stroke="#abb69d" stroke-width="1"><path d="m498 181 54-64h90M504 422l91 94h57M95 401l-45-62H27"/><circle cx="498" cy="181" r="4" fill="#222522"/><circle cx="504" cy="422" r="4" fill="#222522"/><path d="M568 89h74M568 84v10M642 84v10" stroke="#de6b36"/></g>
+  <g fill="#c4ceb9" font-family="Consolas,monospace" font-size="10" letter-spacing="1.5"><text x="554" y="105">ROAD READY / CONCEPT</text><text x="596" y="537">SUSPENSION</text><text x="213" y="569">BUILT AROUND THE JOURNEY</text><text x="47" y="102" fill="#dca176">J+W / STUDY 01</text></g>
+  <circle cx="94" cy="563" r="25" stroke="#67725f"/><path d="M94 543v40m-20-20h40" stroke="#a7b298"/><circle cx="94" cy="563" r="8" stroke="#e87f47"/>
+</svg>

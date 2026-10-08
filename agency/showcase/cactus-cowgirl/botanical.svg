@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="830" viewBox="0 0 760 830" fill="none">
+  <title>Original botanical still life</title>
+  <desc>Stylized cacti, leafy stems, and a rosette succulent arranged in clay pots. This original illustration depicts imagined plants, not the Cactus Cowgirl shop or its actual inventory.</desc>
+  <defs>
+    <linearGradient id="arch" x1="400" y1="120" x2="400" y2="745" gradientUnits="userSpaceOnUse"><stop stop-color="#d4dbc3"/><stop offset="1" stop-color="#e9e6d4"/></linearGradient>
+    <linearGradient id="tallpot" x1="344" y1="550" x2="515" y2="695" gradientUnits="userSpaceOnUse"><stop stop-color="#ce8a67"/><stop offset=".5" stop-color="#b66b4c"/><stop offset="1" stop-color="#9c533d"/></linearGradient>
+    <linearGradient id="lightpot" x1="90" y1="590" x2="250" y2="755" gradientUnits="userSpaceOnUse"><stop stop-color="#e7d1ae"/><stop offset="1" stop-color="#cab38b"/></linearGradient>
+    <linearGradient id="roundpot" x1="492" y1="684" x2="649" y2="780" gradientUnits="userSpaceOnUse"><stop stop-color="#cf9779"/><stop offset="1" stop-color="#ab654a"/></linearGradient>
+    <pattern id="grain" width="13" height="13" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".55" fill="#344636" opacity=".1"/><circle cx="9" cy="9" r=".5" fill="#344636" opacity=".07"/></pattern>
+    <clipPath id="archClip"><path d="M87 707V337C87 179 200 87 375 87c175 0 288 92 288 250v370H87Z"/></clipPath>
+  </defs>
+  <path d="M87 707V337C87 179 200 87 375 87c175 0 288 92 288 250v370H87Z" fill="url(#arch)"/>
+  <g clip-path="url(#archClip)">
+    <circle cx="553" cy="252" r="113" fill="#ddb691" opacity=".6"/>
+    <path d="M66 682q162-90 333-22 178-116 295 24v99H66Z" fill="#c6c9ae" opacity=".35"/>
+    <path d="M90 727 579 372M308 738l392-288" stroke="#f4efe2" stroke-width="16" opacity=".34"/>
+    <path d="M87 707V337C87 179 200 87 375 87c175 0 288 92 288 250v370H87Z" fill="url(#grain)"/>
+  </g>
+  <path d="M61 713h638" stroke="#b3b698" stroke-width="1.3"/>
+  <ellipse cx="397" cy="735" rx="236" ry="31" fill="#8f9274" opacity=".12"/>
+  <ellipse cx="440" cy="701" rx="118" ry="13" fill="#8f9274" opacity=".17"/>
+  <ellipse cx="185" cy="754" rx="111" ry="16" fill="#8f9274" opacity=".17"/>
+  <ellipse cx="578" cy="774" rx="106" ry="13" fill="#8f9274" opacity=".14"/>
+  <!-- Tall cactus, drawn for this concept. -->
+  <path d="M386 582V272c0-48 59-48 59 0v130h41V322c0-40 49-40 49 0v97q0 42-45 42h-45v121h-59Z" fill="#5c744f"/>
+  <path d="M387 444h-58q-47 0-47-55v-65c0-39 48-39 48 0v56q0 14 14 14h43" fill="#6d8254"/>
+  <path d="M415 254v327M400 258v324M429 259v323" stroke="#9caa77" stroke-width="2.4" opacity=".65"/>
+  <path d="M305 314v68q0 39 36 39h42M516 315v102q0 25-29 25h-42" stroke="#a7b683" stroke-width="2.2" opacity=".75"/>
+  <g stroke="#d1d2a4" stroke-width="1.7" stroke-linecap="round">
+    <path d="m380 281 13 4m34 16 15-4m-60 28 13 3m36 21 15-5m-65 30 14 4m33 17 13-5m-58 31 12 3m37 21 12-4m-62 30 13 3m33 20 15-4m-59 30 12 4m37 22 13-4m-60 28 13 3m33 15 15-4"/>
+    <path d="m282 331 13 4m24 21 12-3m-48 25 14 4m23 22 12-5m19 28 8-10m142-83 15 5m14 22 12-3m-40 30 13 3m12 28 12-4m-45 30 4-12m-26 17-2-10"/>
+  </g>
+  <path d="M415 238q-25-18-17-33 18-2 20 25-1-33 18-34 12 22-21 42" fill="#ba7667"/>
+  <path d="m351 564 25 128q63 20 127 0l24-128H351Z" fill="url(#tallpot)"/>
+  <ellipse cx="439" cy="563" rx="96" ry="17" fill="#d28d69"/>
+  <ellipse cx="439" cy="560" rx="78" ry="10" fill="#6f6443"/>
+  <path d="M343 562v23q94 28 192 0v-23q-90 29-192 0Z" fill="#c6805c"/>
+  <path d="m377 594 17 86m2-82 12 87" stroke="#df9a73" stroke-width="3" opacity=".65"/>
+  <path d="M378 693q61 18 123 0" stroke="#8f4f39" stroke-width="2" opacity=".5"/>
+  <!-- A small, leafy houseplant. -->
+  <path d="M188 621q20-127 13-278M196 552l-59-82m61 35 54-80m-56-4-48-74m50 37 57-95" stroke="#4c6745" stroke-width="5" stroke-linecap="round"/>
+  <path d="M201 371q-62-18-41-98 68 15 41 98Z" fill="#6a8254"/>
+  <path d="M201 396q-7-92 83-93-7 77-83 93Z" fill="#8c9b68"/>
+  <path d="M193 460q-88-20-86-100 87 8 86 100Z" fill="#879b69"/>
+  <path d="M200 502q-6-83 85-79-11 74-85 79Z" fill="#59754d"/>
+  <path d="M190 555q-87-2-100-88 89 0 100 88Z" fill="#4f7049"/>
+  <path d="M191 587q21-83 110-55-35 75-110 55Z" fill="#82976a"/>
+  <path d="M184 615q-61-18-73-72 69-7 73 72Z" fill="#9eaa7c"/>
+  <g stroke="#c8cc99" stroke-width="1.8" opacity=".8"><path d="m198 359-30-69m41 95 62-70"/><path d="m190 449-70-76m89 117 64-58m-93 111-77-63m102 98 82-39m-109 76-53-50"/></g>
+  <path d="m123 619 19 124q53 16 107 0l20-124H123Z" fill="url(#lightpot)"/>
+  <ellipse cx="196" cy="618" rx="73" ry="13" fill="#efe0bf"/>
+  <ellipse cx="196" cy="619" rx="61" ry="8" fill="#8a7954"/>
+  <path d="M119 619v21q75 19 154 0v-21q-78 20-154 0Z" fill="#e2cdab"/>
+  <g stroke="#b7a079" stroke-width="2.3" opacity=".6"><path d="m140 648 15 86m0-84 11 88m5-85 6 89m11-87 1 90m15-91-3 88m20-89-8 87m24-90-14 87m30-89-16 83"/></g>
+  <!-- Low rosette in a hand-shaped bowl. -->
+  <path d="M489 687h174q-7 83-84 87-80-4-90-87Z" fill="url(#roundpot)"/>
+  <ellipse cx="576" cy="686" rx="87" ry="15" fill="#d99d7c"/>
+  <ellipse cx="576" cy="684" rx="73" ry="10" fill="#756746"/>
+  <path d="M577 694q-100-23-113-93 96-8 113 93Z" fill="#79987c"/>
+  <path d="M577 694q103-21 119-91-93-4-119 91Z" fill="#67866c"/>
+  <path d="M577 687q-96-56-74-137 75 21 74 137Z" fill="#9caf88"/>
+  <path d="M577 687q88-58 70-141-80 27-70 141Z" fill="#8ba681"/>
+  <path d="M577 685q-61-80 0-169 63 91 0 169Z" fill="#b8c49b"/>
+  <path d="M577 693q-78-12-88-66 76-18 88 66Z" fill="#bac7a1"/>
+  <path d="M577 693q80-12 93-65-69-9-93 65Z" fill="#a5ba96"/>
+  <path d="M577 694q-44-30-33-67 41 10 33 67Z" fill="#d0d4aa"/>
+  <path d="M577 694q41-31 36-68-41 8-36 68Z" fill="#c3cda5"/>
+  <g stroke="#dee0b9" stroke-width="1.5" opacity=".65"><path d="M577 534v100m-64-66 46 72m78-72-42 76m-110-29 58 42m137-40-61 43"/></g>
+  <ellipse cx="577" cy="685" rx="9" ry="16" fill="#dce0b3"/>
+  <path d="M512 729q61 23 126 0" stroke="#dea784" stroke-width="3" opacity=".75"/>
+  <path d="M516 737q60 21 118 0" stroke="#e0b08d" stroke-width="1.3" opacity=".5"/>
+  <!-- Quiet hand-drawn details, not a real shop setting. -->
+  <path d="M635 464v20m-10-10h20M112 208v14m-7-7h14" stroke="#9e8457" stroke-width="1.5"/>
+  <circle cx="580" cy="430" r="2.2" fill="#9e8457"/>
+  <path d="m320 735 17-4m-13 12 21 1m-66 23 9 3" stroke="#b8af90" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
