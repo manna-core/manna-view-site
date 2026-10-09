@@ -7,6 +7,7 @@
   <meta name="description" content="An independent website concept for Al’s Diner in Pittsboro, featuring real diner photographs, selections from a photographed breakfast menu, and visit information.">
   <meta name="robots" content="noindex,nofollow">
   <link rel="canonical" href="https://manna-core.dev/agency/showcase/als-diner/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/agency/showcase/als-diner/style.css">
   <meta name="theme-color" content="#215b56">
 </head>
@@ -21,15 +22,17 @@
     <section class="hero page-width" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow">535 West Street · Pittsboro</p>
-        <h1 id="hero-title">Breakfast.<br>Sandwiches.<br>Plates.</h1>
+        <h1 id="hero-title">Breakfast on<br>West Street.</h1>
         <p class="hero-description">Eggs, homemade biscuits, pancakes and a seat at Al’s.</p>
+      </div>
+      <figure class="breakfast-photo">
+        <picture><source type="image/webp" srcset="/agency/showcase/als-diner/breakfast-plates-640.webp 640w, /agency/showcase/als-diner/breakfast-plates.webp 1140w" sizes="(max-width: 540px) calc(100vw - 36px), (max-width: 760px) calc(100vw - 48px), (max-width: 1000px) 52vw, 680px"><img src="/agency/showcase/als-diner/breakfast-plates.png" width="1140" height="645" fetchpriority="high" decoding="async" alt="Two breakfast plates at Al’s Diner: eggs, toast, ham and diced potatoes on one; eggs, sausage and grits on the other."></picture>
+        <figcaption>Breakfast at Al’s Diner</figcaption>
+      </figure>
+      <div class="hero-cta">
         <div class="hero-actions"><a class="button" href="#menu">View the menu <span aria-hidden="true">↓</span></a><a class="button button-outline" href="tel:+19195425800">Call Al’s</a></div>
         <a class="directions-text" href="https://www.google.com/maps/search/?api=1&amp;query=Al%27s%20Diner%20535%20West%20Street%20Pittsboro%20NC%2027312">Get directions to the diner <span aria-hidden="true">↗</span></a>
       </div>
-      <figure class="breakfast-photo">
-        <img src="/agency/showcase/als-diner/breakfast-plates.png" width="1140" height="645" fetchpriority="high" decoding="async" alt="Two breakfast plates at Al’s Diner: eggs, toast, ham and diced potatoes on one; eggs, sausage and grits on the other.">
-        <figcaption>Breakfast at Al’s Diner</figcaption>
-      </figure>
     </section>
 
     <section class="menu-section page-width" id="menu" tabindex="-1" aria-labelledby="menu-title">
@@ -38,7 +41,7 @@
         <a class="source-link" href="https://restaurantguru.com/Als-Diner-Pittsboro/menu">View the menu source <span aria-hidden="true">↗</span></a>
       </div>
       <p class="menu-note">A selection from a photographed menu, with no confirmed photo date. Current availability and prices are unconfirmed. <a href="tel:+19195425800">Call Al’s for the latest.</a></p>
-      <nav class="menu-jumps" aria-label="Breakfast menu sections"><a href="#classic-plates">Classic plates</a><a href="#omelets">Omelets</a><a href="#griddle">From the griddle</a><a href="#favorites">Biscuits &amp; favorites</a></nav>
+      <nav class="menu-jumps" id="menu-sections" tabindex="-1" aria-label="Breakfast menu sections"><a href="#classic-plates">Classic plates</a><a href="#omelets">Omelets</a><a href="#griddle">From the griddle</a><a href="#favorites">Biscuits &amp; favorites</a></nav>
       <div class="printed-menu">
         <section class="menu-group" id="classic-plates" aria-labelledby="plates-title">
           <h3 id="plates-title">Classic plates</h3>
@@ -52,6 +55,7 @@
             <li><strong>Country fried steak</strong><span>With gravy</span></li>
             <li><strong>Ribeye</strong></li>
           </ul>
+          <a class="menu-return" href="#menu-sections">Menu sections <span aria-hidden="true">↑</span></a>
         </section>
         <section class="menu-group" id="omelets" aria-labelledby="omelets-title">
           <h3 id="omelets-title">Three-egg omelets</h3>
@@ -64,6 +68,7 @@
             <li><strong>Carolina</strong><span>Cheddar, diced potatoes, onions, bacon and sausage gravy</span></li>
             <li><strong>Big Al’s</strong><span>Bacon, sausage, ham, peppers, tomatoes, mushrooms, onions and cheese</span></li>
           </ul>
+          <a class="menu-return" href="#menu-sections">Menu sections <span aria-hidden="true">↑</span></a>
         </section>
         <section class="menu-group" id="griddle" aria-labelledby="griddle-title">
           <h3 id="griddle-title">From the griddle</h3>
@@ -72,6 +77,7 @@
             <li><strong>Al’s French Toast</strong><span>Texas toast dipped in cinnamon egg batter, with powdered sugar</span></li>
           </ul>
           <div class="menu-extras"><h4>On the side</h4><p>Grits · Hash browns · Tots · Tomatoes · Toast</p><h4>Something to drink</h4><p>Coffee · Iced tea · Juice · Lemonade</p></div>
+          <a class="menu-return" href="#menu-sections">Menu sections <span aria-hidden="true">↑</span></a>
         </section>
         <section class="menu-group" id="favorites" aria-labelledby="favorites-title">
           <h3 id="favorites-title">Biscuits &amp; favorites</h3>
@@ -81,6 +87,7 @@
             <li><strong>Tenderloin &amp; Biscuit</strong><span>Open-faced fried tenderloin with white pepper gravy</span></li>
             <li><strong>Chicken &amp; Biscuit</strong><span>Fried tenders with white pepper gravy</span></li>
           </ul>
+          <a class="menu-return" href="#menu-sections">Menu sections <span aria-hidden="true">↑</span></a>
         </section>
       </div>
       <div class="menu-bottom"><p>For lunch, daily specials and current prices, check with the diner.</p><a href="https://www.facebook.com/als.diner.7/">Al’s on Facebook <span aria-hidden="true">↗</span></a></div>
@@ -88,7 +95,7 @@
 
     <section class="room-section" aria-labelledby="room-title">
       <div class="page-width room-layout">
-        <figure class="room-photo"><img src="/agency/showcase/als-diner/dining-room.png" width="800" height="600" loading="lazy" decoding="async" alt="Al’s dining room with turquoise walls, black booths, chrome-edged tables and a black-and-cream checkerboard floor."><figcaption>Inside Al’s Diner</figcaption></figure>
+        <figure class="room-photo"><picture><source type="image/webp" srcset="/agency/showcase/als-diner/dining-room-480.webp 480w, /agency/showcase/als-diner/dining-room.webp 800w" sizes="(max-width: 540px) calc(100vw - 36px), (max-width: 760px) calc(100vw - 48px), 600px"><img src="/agency/showcase/als-diner/dining-room.png" width="800" height="600" loading="lazy" decoding="async" alt="Al’s dining room with turquoise walls, black booths, chrome-edged tables and a black-and-cream checkerboard floor."></picture><figcaption>Inside Al’s Diner</figcaption></figure>
         <div class="room-copy"><p class="eyebrow">Dine in or take it to go</p><h2 id="room-title">The diner on<br>West Street.</h2><p>Turquoise walls. Black booths. Checkerboard floors. This is Al’s in Pittsboro.</p><p>Check the diner’s pages for updates, or call to ask what’s on today.</p><div class="social-links"><a href="https://www.facebook.com/als.diner.7/">Facebook <span aria-hidden="true">↗</span></a><a href="https://www.instagram.com/alsdinerpittsboro/">Instagram <span aria-hidden="true">↗</span></a></div></div>
       </div>
     </section>
@@ -101,7 +108,7 @@
         <div class="hours"><h3>Listed hours</h3><dl><div><dt>Monday–Wednesday</dt><dd>6 am–2:30 pm</dd></div><div><dt>Thursday–Friday</dt><dd>6 am–8 pm</dd></div><div><dt>Saturday</dt><dd>7 am–noon</dd></div><div><dt>Sunday</dt><dd>Closed</dd></div></dl><p>From the <a href="https://visitpittsboro.com/location/als-diner/">county tourism listing</a>; not confirmed directly with Al’s. Call before making a special trip.</p></div>
         <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Al%27s%20Diner%20535%20West%20Street%20Pittsboro%20NC%2027312">Get directions <span aria-hidden="true">↗</span></a>
       </div>
-      <figure class="storefront-photo"><img src="/agency/showcase/als-diner/storefront.png" width="1200" height="900" loading="lazy" decoding="async" alt="Al’s Diner at 535 West Street, with red block lettering above its entrance, pale siding and red planters."><figcaption>Look for the red AL’S DINER sign on West Street.</figcaption></figure>
+      <figure class="storefront-photo"><picture><source type="image/webp" srcset="/agency/showcase/als-diner/storefront-640.webp 640w, /agency/showcase/als-diner/storefront.webp 1200w" sizes="(max-width: 540px) calc(100vw - 36px), (max-width: 760px) calc(100vw - 48px), 640px"><img src="/agency/showcase/als-diner/storefront.png" width="1200" height="900" loading="lazy" decoding="async" alt="Al’s Diner at 535 West Street, with red block lettering above its entrance, pale siding and red planters."></picture><figcaption>Look for the red AL’S DINER sign on West Street.</figcaption></figure>
     </section>
   </main>
   <footer class="site-footer">
