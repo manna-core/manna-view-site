@@ -15,3 +15,29 @@
 .concept-notice{background:#e1e3de;border-bottom-color:#c7cdc8}.wordmark{letter-spacing:-2.5px}.brand-dot{color:var(--accent)}.site-header{border-bottom:3px solid var(--ink)}.service-ribbon{border-top:5px solid var(--accent)}.service-ribbon b{color:#ee9991}.location-section{background:#e2e4e0;border-block:1px solid #c5cbc6}.location-heading{padding-left:22px;border-left:5px solid var(--accent)}.location-heading:before{content:"";display:block;width:74px;height:5px;background:#fffdf5;margin-bottom:25px}.address-plaque{display:inline-block;background:#1d5480;color:#fffdf5;padding:8px 16px;margin-bottom:22px;font:700 29px/1.15 var(--mono);letter-spacing:.09em;border:2px solid #eef0e8}.route-town{background:#e2e4e0}.preparation{border-top:3px solid var(--ink)}.preparation h3{color:var(--accent)}.workshop-photo img{border-top:5px solid var(--accent)}.mobile-actions{background:var(--paper)}@media(max-width:760px){.location-heading{padding-left:18px}.location-heading:before{margin-bottom:21px}.address-plaque{font-size:27px;margin-bottom:20px}}
 
 .mobile-caption{grid-column:1/-1;text-align:center;font-size:11px;line-height:1.5;color:var(--muted)}
+
+/* Clear contact choices, with utility details drawn from the workshop palette. */
+.quote-section{align-items:start}
+.quote-intro>p:not(.eyebrow){max-width:320px;margin-top:24px;color:var(--muted);font-size:16px;line-height:1.7}
+.preparation-link{display:inline-flex;align-items:center;min-height:44px;margin-top:20px;padding-block:9px;font-size:14px}
+.quote-copy{max-width:none;min-width:0}
+.contact-option{border:1px solid var(--line);border-left:4px solid var(--ink);padding:25px 27px;background:var(--white)}
+.contact-option+.contact-option{margin-top:16px}
+.contact-option-online{border-left-color:var(--accent)}
+.contact-option .contact-channel{font:11px/1.7 var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin:0 0 13px}
+.contact-option h3{font-size:25px;line-height:1.2;letter-spacing:-.035em;margin-bottom:12px}
+.contact-option>p:not(.contact-channel){font-size:15px;line-height:1.7;color:var(--muted);margin-bottom:20px;max-width:400px}
+.contact-option .button{max-width:100%;gap:20px;line-height:1.5}
+.contact-option .button>span[aria-hidden]{flex-shrink:0}
+.quote-copy .inquiry-limit{max-width:none;font-size:14px}
+.preparation li{padding-block:15px;border-top:1px solid var(--line)}
+.preparation ul{gap:0}
+.preparation li:last-child{border-bottom:1px solid var(--line)}
+.preparation-return{display:inline-flex;align-items:center;gap:16px;min-height:44px;margin-top:16px;padding-block:8px;font-size:13px;font-weight:700;text-decoration:underline;text-underline-offset:4px;line-height:1.6}
+a:focus-visible{outline:3px solid #1d5480;outline-offset:4px;box-shadow:0 0 0 2px var(--white)}
+.hero h1,.section-intro h2,.location-heading h2,.quote-section h2,.contact-option h3{text-wrap:balance}
+@media(max-width:1100px) and (min-width:761px){.quote-section{grid-template-columns:.8fr 1.2fr;gap:42px}.contact-option{padding:23px}.contact-option .button{gap:12px;padding-inline:16px;font-size:12px}}
+@media(max-width:760px){.quote-intro>p:not(.eyebrow){max-width:430px;margin-top:20px}.preparation-link{margin-top:10px}.contact-option{padding:23px}.contact-option h3{font-size:24px}.contact-option .contact-channel{font-size:11px}.preparation-return{font-size:14px}a[id],section[id],aside[id]{scroll-margin-bottom:140px}}
+@media(max-width:380px){.contact-option{padding:20px 17px}.contact-option .button{width:100%;padding-inline:14px;gap:10px;font-size:12px}.contact-option .contact-channel{letter-spacing:0}.contact-option h3{font-size:22px}}
+/* A dock must not consume the view on short landscape or heavily zoomed screens. */
+@media(max-width:760px) and (max-height:500px){body{padding-bottom:0}html{scroll-padding-bottom:24px}.mobile-actions{position:static;box-shadow:none;margin-top:12px}a[id],section[id],aside[id]{scroll-margin-bottom:0}}

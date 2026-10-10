@@ -127,3 +127,46 @@
 .external-note{color:#e4eadd}
 .address-card{background:#efdbc8;border-color:#d6b394}
 .site-footer{background:#efe2d1}
+
+/* October 9: useful shop channels and a shorter path through the mobile page. */
+main:focus{outline:none}
+.selection-note p{max-width:58ch}
+.gather-inner{grid-template-columns:.6fr 1.5fr .9fr;gap:42px}
+.gather-aside{min-width:0;color:var(--paper)}
+.gather-aside .eyebrow{font-family:var(--sans);font-size:10px;line-height:1.8;letter-spacing:.1em;color:#e4eadd}
+.gather-aside h3{font-size:29px;line-height:1.2;letter-spacing:-.03em;margin-top:13px}
+.gather-aside h3 em{color:#dac29a}
+.gather-aside .social-note{font-family:var(--sans);font-size:13px;line-height:1.7;color:#e4eadd;margin-top:16px}
+.social-link{display:inline-flex;align-items:center;justify-content:space-between;gap:18px;min-height:44px;font-family:var(--sans);font-size:14px;font-weight:600;line-height:1.6;margin-top:16px;border-bottom:1px solid #c5cdbb}
+.social-link:hover{color:#dac29a}
+.social-link:focus-visible{outline-color:#f7f0e5}
+@media(min-width:741px) and (max-width:1050px){
+  .gather-inner{grid-template-columns:.55fr 1.45fr;gap:30px}
+  .gather-aside{display:block;grid-column:2;border-top:1px solid #829887;padding-top:25px}
+  .gather-aside .gather-line{display:none}
+  .gather-aside h3 br{display:none}
+  .gather-aside .social-note{max-width:46ch}
+}
+@media(max-width:740px){
+  .plant-grid{gap:0;border-top:1px solid #b6815e}
+  .plant-card{display:grid;grid-template-columns:112px minmax(0,1fr);gap:20px;align-items:center;padding-block:18px;border-bottom:1px solid #b6815e}
+  .plant-drawing{aspect-ratio:1;align-self:start}
+  .plant-drawing svg{width:100%;height:100%}
+  .card-number{top:6px;left:8px;font-size:10px}
+  .card-copy{display:block;border:0;padding:0}
+  .card-copy h3{font-size:27px;line-height:1.15}
+  .card-copy>span{display:none}
+  .card-copy p{margin-top:8px;font-size:14px;line-height:1.6}
+  .gather-inner{grid-template-columns:1fr;gap:24px}
+  .gather-aside{display:block;border-top:1px solid #829887;padding-top:25px;margin-top:7px}
+  .gather-aside .gather-line{display:none}
+  .gather-aside h3{font-size:29px}
+  .gather-aside h3 br{display:none}
+  .gather-aside .social-note{max-width:42ch;font-size:14px;margin-top:13px}
+  .social-link{margin-top:12px}
+}
+@media(max-width:360px){
+  .plant-card{grid-template-columns:88px minmax(0,1fr);gap:15px}
+  .card-copy h3{font-size:24px}
+  .card-copy p{font-size:13px}
+}
