@@ -3,3 +3,6 @@
 .frank-larry .concept-preview{background:#f6f0e3;color:#332a20;gap:20px;padding:25px}.concept-photo-preview img{width:100%;height:245px;object-fit:cover;border:9px solid #fffbf3;transform:rotate(-1deg)}.frank-larry .preview-detail{padding-right:30px}@media(max-width:760px){.concept-photo-preview img{height:215px}.frank-larry .concept-preview{padding:22px}.frank-larry .preview-detail{max-width:240px}}
 
 .reprise .concept-preview{background:#e8d7c3;color:#47283f}.reprise .preview-name{font-family:Georgia,serif}.cowboy .concept-preview{background:#f0deb9;color:#8c2f22}.cowboy .preview-name{font-family:Georgia,serif;text-transform:uppercase}
+
+/* October 27: three individual business directions. */
+.new-hewitt .concept-preview{background:#e8d8c2;color:#3b3026}.new-hewitt .preview-name{font-family:Georgia,serif;font-weight:400;letter-spacing:-.045em}.new-pittsboro-feed .concept-preview{background:#213d2d;color:#f2ecd8}.new-pittsboro-feed .preview-name{font-family:Arial,sans-serif;text-transform:uppercase;font-weight:900;letter-spacing:-.04em}.new-starrlight .concept-preview{background:#202a37;color:#f4e6ba}.new-starrlight .preview-name{font-family:Georgia,serif;text-align:center;font-weight:400}.new-starrlight .preview-name i{color:#e9b963}
