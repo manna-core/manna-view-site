@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 740" role="img" aria-labelledby="title desc">
+  <title id="title">MannaPrime: from a used desktop to a Linux server</title>
+  <desc id="desc">An illustrative build sequence: find an electronics-recycler desktop, arrange the shop's SSD upgrade, purchase two 32-gigabyte memory sticks, and complete AI-assisted Linux server setup. This is not a live system diagram.</desc>
+  <rect width="480" height="740" rx="24" fill="#101e30"/>
+  <path d="M240 146V192M240 304V350M240 462V508" fill="none" stroke="#79bfff" stroke-width="3"/>
+  <g fill="#172d45" stroke="#54779a" stroke-width="1.5">
+    <rect x="24" y="34" width="432" height="112" rx="12"/>
+    <rect x="24" y="192" width="432" height="112" rx="12"/>
+    <rect x="24" y="350" width="432" height="112" rx="12"/>
+    <rect x="24" y="508" width="432" height="112" rx="12"/>
+  </g>
+  <g fill="#eef5fc" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">
+    <text x="240" y="82">Find a used desktop</text>
+    <text x="240" y="240">Arrange upgrades</text>
+    <text x="240" y="398">Expand memory</text>
+    <text x="240" y="556">Set up Linux</text>
+  </g>
+  <g fill="#b6d5ef" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">
+    <text x="240" y="119">Electronics recycler</text>
+    <text x="240" y="277">SSD fitted by the shop</text>
+    <text x="240" y="435">2 × 32GB purchased</text>
+    <text x="240" y="593">AI-assisted server setup</text>
+    <text x="240" y="676">Illustrative build sequence</text>
+    <text x="240" y="713">Configuration recorded Nov 22, 2026</text>
+  </g>
+</svg>
